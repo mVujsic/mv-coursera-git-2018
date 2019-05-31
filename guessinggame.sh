@@ -15,9 +15,9 @@ function yourGuess(){
 			echo "Congrats.Real number of files in $pwd is $guess"
 			break
 		elif [ $guess -lt $realNumOfFiles ];then
-			echo "Wrong.Try higher number.Number is too lower!"
+			echo "Wrong.Try higher number.Number is too low!"
 		else
-			echo "Wrong.Try smaller number.Number is too higher!"
+			echo "Wrong.Try smaller number.Number is too high!"
 		fi
 	done 
 }
